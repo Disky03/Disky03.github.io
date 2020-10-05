@@ -38,5 +38,5 @@ var tombol = document.querySelector('.get-started-btn');
 var teks = document.querySelector('.teks');
 
 function langsung() {
-	window.location = "cake.html";
+	window.location = "september.html";
 }
