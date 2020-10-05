@@ -1,0 +1,148 @@
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  background: #f6f7ff;
+  border-bottom: 2px solid #eceefe;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+}
+
+#header .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Get Startet Button */
+.get-started-btn {
+  background: #0a22f6;
+  color: #fff;
+  border-radius: 15px;
+  padding: 8px 25px 10px 25px;
+  white-space: nowrap;
+  transition: 0.5s;
+  font-size: 15px;
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  visibility: hidden;
+}
+
+.get-started-btn:hover {
+  background: #F50057;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 100vh;
+  background:white;
+  border-bottom: 2px solid white;
+  text-align: center;
+}
+
+#hero .container {
+  padding-top: -5px;
+}
+
+  #hero h1 {
+    font-size: 20px;
+    line-height: 42px;
+    font-weight:bold;
+    margin-bottom: 20px;
+    color: #F50057;
+  }
+  #hero h4 {
+    font-size: 49px;
+    line-height: 20px;
+    margin-bottom: -21px;
+    font-weight: bold;
+    font-family: Sans-Serif;
+  }
+  #hero .hero-img {
+    max-width: 90%;
+    margin-top: 10px;
+  }
+  #hero .Countdown {
+  	display: flex;
+  	margin-top: 30px;
+  }
+  #hero .Countdown #hours {
+  	position: relative;
+  	width: 100px;
+  	font-weight: bold;
+  	height: 100px;
+  	line-height: 100px;
+  	text-align: center;
+  	background:rgb(255,17,101) ;
+  	color: #fff;
+  	border-radius:15px;
+  	margin:0 22px;
+  	font-size: 1.6em;
+  	font-family: Sans-Serif;
+  	margin-top: 30px;
+  }
+  
+  #hero .Countdown #minute {
+  	position: relative;
+  	width: 100px;
+  	font-weight: bold;
+  	height: 100px;
+  	line-height: 100px;
+  	text-align: center;
+  	background:rgb(255,17,101) ;
+  	color: #fff;
+  	border-radius:15px;
+  	margin:0 22px;
+  	font-size: 1.6em;
+  	font-family: Sans-Serif;
+  	margin-top: 30px;
+  }
+  
+  #hero .Countdown #second {
+  	position: relative;
+  	width: 100px;
+  	font-weight: bold;
+  	height: 100px;
+  	line-height: 100px;
+  	text-align: center;
+  	background:rgb(255,17,101) ;
+  	color: #fff;
+  	border-radius:15px;
+  	margin:0 22px;
+  	font-size: 1.6em;
+  	font-family: Sans-Serif;
+  	margin-top: 30px;
+  }
+
+
+  
+  #hero .Countdown #hours #minute #second {
+  	font-size: 42px;
+  	font-weight: bold;
+  }
+ 
+ .hidden { 
+ 	visibility: hidden;
+ }
