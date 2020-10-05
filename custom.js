@@ -23,9 +23,9 @@ const hitungMundur = setInterval(function() {
 
 	if (selisih < 0) {
 		clearInterval(hitungMundur);
-		hours.innerHTML = 'H';
-		minute.innerHTML = 'B';
-		second.innerHTML = 'D';
+		hours.innerHTML = 'I';
+		minute.innerHTML = 'L';
+		second.innerHTML = 'Y';
 		tombol.style.visibility = 'visible';
 		teks.style.visibility = 'visible';
 	}
